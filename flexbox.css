@@ -1,8 +1,10 @@
 
 body {
-    background-color: #D9D9D9;
+    background-color: #131515 ;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 .container {
@@ -11,43 +13,40 @@ body {
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
     justify-content: center; /* Centra los elementos a lo largo del eje principal horizontal */
     align-items: center; /* Centra los elementos a lo largo del eje secundario vertical */
-    background-color: #D9D9D9;
+    background-color: #131515;
     margin: 0 50px;/* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
 
 }
 
 header {
     display: flex; /* Establece el encabezado como un contenedor flex */
-    align-items: baseline; /* Alinea los elementos del encabezado a lo largo de la línea de base */
+    align-items: center; /* Alinea los elementos del encabezado a lo largo de la línea de base */
     justify-content: space-between; /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
-    padding: 6px;
-    background-color: white;
+    padding: 5px;
+    background-color: 131515;
 }
 .container-title {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .container-image {
     text-align: center;
-    margin-bottom: 20px;
     display: block;
 }
 
 .box {
     width: 350px;
     padding: 20px;
-    background-color: white;
+    background-color: #131515;
     margin: 10px;
     text-align: center;
+    color: #878786;
 }
 nav {
-    height: 50px;
     display: flex;
-    margin-bottom: 10px;
-    font-weight: 500;
     justify-content: center;
+    margin-right: 85px;
 }
   
 nav ul {
@@ -59,8 +58,7 @@ nav ul {
 nav li {
     display: inline;
     text-align: center;
-    text-decoration: none;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 a{
     text-decoration: none;
@@ -68,4 +66,57 @@ a{
 }
 .lupa{
     margin-right: 50px;
+}
+nav a:hover{
+    color: #C7B684;
+}
+h1{
+    color: #C7B684;
+    font-family: 'Bebas Neue', sans-serif;
+  
+}
+p{
+    color: #878786;
+}
+
+.valores{
+    background-color: #222222;
+    padding: 20px;
+}
+#text{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+}
+.title1{
+    margin-left: 105px;
+    
+    font-size: 25px;
+
+}
+.container2 {
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #131515;
+    margin: 0 50px;
+
+}
+footer {
+    margin-top: 10px;
+    display: flex; /* Establece el encabezado como un contenedor flex */
+    justify-content: space-around; /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
+    padding: 5px;
+    background-color: #222222;
+
+    align-items: center;
+}
+#C{
+    display: inline-block;
+    padding: 10px;
+  }
+#con{
+    color: #878786;
 }
