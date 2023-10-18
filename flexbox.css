@@ -93,18 +93,10 @@ p{
     color: #C7B684;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
+    margin-top: 50PX;
 
 }
-.container2 {
-    
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-items: center; 
-    background-color: #131515;
-    margin: 0 50px;
 
-}
 footer {
     margin-top: 10px;
     padding: 100px;
