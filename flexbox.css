@@ -90,7 +90,8 @@ p{
 }
 .title1{
     margin-left: 105px;
-    
+    color: #C7B684;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
 
 }
@@ -134,12 +135,6 @@ footer {
     margin-top: 100px;
     
 }
-.instagram{
-    padding: 5px;
-}
-.facebook{
-    padding: 5px;
-}
-.in{
+.redes{
     padding: 5px;
 }
